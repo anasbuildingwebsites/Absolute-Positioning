@@ -1,0 +1,133 @@
+<html>
+<!-- Question 2 
+1. Add div container
+2. Remove width and height in <img>
+-->
+<div class="container-class">
+    <p><b>Write - get a promotional code!</b></p>
+    <a class="social" href=""><img src="/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png"></a>
+          
+    <a class="social" href=""><img src="/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png"></a>
+</div>
+<!--
+3. Add CSS
+-->
+<style>
+    .container-class {
+        position: fixed;
+        top: 60px; 
+        right: 20px; 
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .social {
+        width: 30px;
+        height: 30px;
+        padding-bottom: 10px;
+    }
+</style>
+
+<!-- Question 3 -->
+<html>
+    <head>
+        <title>Individual Project</title>
+    </head>
+    <body>
+        <article class="article-class">
+            <img class="article-image" src="https://cdn.pixabay.com/photo/2023/09/05/03/04/alpaca-8234110_1280.jpg">
+        </article>
+    </body>
+</html>
+
+<style>
+    .article-class {
+        position: relative; /* Ensure article is positioned relatively */
+        width: 600px; /* Adjust this width as needed */
+        height: 400px; /* Adjust this height as needed */
+        border: 1px solid navy; /* Just for visualization */
+        background-color: papayawhip;
+    }
+
+    .article-image {
+        position: absolute;
+        top: 20px; /* Adjust top position as needed */
+        right: 20px; /* Adjust right position as needed */
+        width: 50%;
+    }
+</style>
+
+<!-- Question 4 -->
+<html>
+    <head>
+        <title>Individual Project</title>
+    </head>
+    <body>
+        <article class="article-class">
+    <h2 class="article-title">Alpaca</h2>
+</article>
+
+    </body>
+</html>
+
+<style>
+    .article-title::before,
+    .article-title::after {
+        content: "";
+        display: inline-block;
+        width: 50px;
+        height: 50px; 
+        background-image: url('https://cdn.pixabay.com/photo/2023/09/05/03/04/alpaca-8234110_1280.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        margin-right: 10px; 
+        margin-left: 10px;
+    }
+</style>
+
+<!-- Question 5 -->
+<html>
+    <head>
+        <title>Individual Project</title>
+    </head>
+    <body>
+        <footer>
+            <div class="contact-info">
+                <p class="address">123 Main Street, City, Country</p>
+                <p class="phone">123-456-7890</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<style>
+    .contact-info {
+        position: relative;
+    }
+
+    .address::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px; 
+        background-image: url('https://cdn-icons-png.freepik.com/512/2163/2163350.png?ga=GA1.1.1987807417.1709863225'); 
+        background-size: cover; 
+        background-position: center; 
+        margin-right: 10px; 
+        margin-left: 10px;
+    }
+
+    .phone::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px; 
+        background-image: url('https://cdn-icons-png.freepik.com/512/3014/3014736.png?ga=GA1.1.1987807417.1709863225'); 
+        background-size: cover; 
+        background-position: center; 
+        margin-right: 10px; 
+        margin-left: 10px;
+    }
+</style>
+</html>
