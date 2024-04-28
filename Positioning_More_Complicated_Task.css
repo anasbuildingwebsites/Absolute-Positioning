@@ -1,0 +1,63 @@
+/* Question 2 
+add <h1></h1>
+*/
+.web {
+    position: absolute;
+    top: 0px;
+}
+
+/* Question 3 */
+.text {
+    position: fixed;
+    top: 120px;
+    width: 100px;
+    background-color: #48036f;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffdd;
+    margin-top: 120px;
+}
+
+/* Question 4 */
+.cat {
+    position: absolute;
+    left: 150px;
+    top: 240px;
+}
+
+.cat:hover {
+    left: 10px;
+}
+
+/* Question 5 */
+.map {
+    position: relative;
+}
+
+.marker {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+.marker span {
+    background-color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* Question 6 */
+/* Line 16 
+<h1>School</h1>
+<h1><br>copywriting Doc+<br/>
+*/
+
+footer {
+    background-color: #ECDB9E;
+    padding: 10px;
+    font-size: 20px;
+    /* start from here */
+    position: fixed;
+    bottom: 0px;
+    width: 870px;
+}
