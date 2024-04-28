@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Individual Project</title>
+        <style>
+            .article-class {
+                position: relative; /* Ensure article is positioned relatively */
+                width: 800px; /* Adjust this width as needed */
+                height: 500px; /* Adjust this height as needed */
+                border: 1px solid navy; /* Just for visualization */
+                background-color: papayawhip;
+            }
+
+            .article-image {
+                position: absolute;
+                top: 20px; /* Adjust top position as needed */
+                right: 20px; /* Adjust right position as needed */
+                width: 50%;
+            }
+
+            .article-title::before,
+            .article-title::after {
+                content: "";
+                display: inline-block;
+                width: 50px;
+                height: 50px; 
+                background-image: url('https://cdn.pixabay.com/photo/2023/09/05/03/04/alpaca-8234110_1280.jpg'); 
+                background-size: cover; 
+                background-position: center; 
+                margin-right: 10px; 
+                margin-left: 10px;
+            }
+
+            .contact-info {
+                position: relative;
+                background-color: antiquewhite;
+                padding: 10px;
+                margin-top: 10px;
+                border: 1px solid brown;
+            }
+
+            .address::before {
+                content: "";
+                display: inline-block;
+                width: 25px;
+                height: 25px; 
+                background-image: url('https://cdn-icons-png.freepik.com/512/2163/2163350.png?ga=GA1.1.1987807417.1709863225'); 
+                background-size: cover; 
+                background-position: center; 
+                margin-right: 10px; 
+                margin-left: 10px;
+            }
+
+            .phone::before {
+                content: "";
+                display: inline-block;
+                width: 25px;
+                height: 25px; 
+                background-image: url('https://cdn-icons-png.freepik.com/512/3014/3014736.png?ga=GA1.1.1987807417.1709863225'); 
+                background-size: cover; 
+                background-position: center; 
+                margin-right: 10px; 
+                margin-left: 10px;
+            }
+
+            .article-image:hover {
+                border: 5px red dotted;
+            }
+
+            .article-text {
+                width: 300px;
+            }
+
+            .food, .fleece {
+                border-bottom: 2px solid orange;
+            }
+            .food:hover, .fleece:hover {
+                background-color: orange;
+                color: white;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <article class="article-class">
+            <h2 class="article-title">Alpaca</h2>
+            <img class="article-image" src="https://cdn.pixabay.com/photo/2023/09/05/03/04/alpaca-8234110_1280.jpg">
+            <h2 class="article-subtitle">Facts about Alpaca</h2>
+            <div class="article-text">
+                <p>
+                    Alpacas are members of the camel family, domesticated by the people of the Peruvian Andes 6,000 years ago for <span class="food">food, fuel, and fiber</span>.There are two domesticated breeds of alpaca: The huacaya, whose fleece is <span class="fleece">crimped, compact, and soft,</span> makes up 90 percent of the alpaca population. Suri alpacas, whose coats have a corkscrew-like appearance with longer fibers and a silkier texture, account for the rest of the population.
+                </p>
+            </div>
+        </article>
+
+        <footer>
+            <div class="contact-info">
+                <p class="address">123 Main Street, City, Country</p>
+                <p class="phone">123-456-7890</p>
+            </div>
+        </footer>
+    </body>
+</html>
