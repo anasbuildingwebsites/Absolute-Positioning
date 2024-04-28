@@ -1,3 +1,10 @@
+/** Question 1 */
+
+relative positioning -> the object remains in its place; a shift can be added in any direction from the current position
+fixed positioning -> the object occupies the visual space in the page window and does not move along with all the content when the user scrolls down the page.
+absolute positioning -> the object is moved to an empty space at the top left of the page, and the position relative to the edges of the page can be set
+
+
 /* Question 2 
 add <h1></h1>
 */
